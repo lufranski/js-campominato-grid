@@ -17,6 +17,9 @@ btn.addEventListener('click' ,
 
 function(){
     
+    // InnerHtml vuoto per resettare il container
+    wrapper.innerHTML = '';
+
     wrapper.classList.add('generated');
     
     // Creare la griglia 10x10

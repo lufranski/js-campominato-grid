@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-y: hidden;
+    color: #1B262C;
+    font-family: 'Anton', sans-serif;
+}
+
 header {
     background-color: #1B262C;
     display: flex;
@@ -18,14 +24,18 @@ main {
     background-color: #0F4C75;
     padding: 30px;
     /* DEBUG */
-    height: 90vh;
+    /* height: 90vh; */
 }
 
-#logo {
-    /* DEBUG */
-    width: 10%;
-    height: 60%;
-    border: 1px dashed #BBE1FA;
+a {
+    text-decoration: none;
+    color: #BBE1FA;
+    font-size: 30px;
+    display: flex;
+}
+
+a:hover {
+    color: #EEEEEE;
 }
 
 #button {
@@ -41,7 +51,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    /* DEBUG */
     height: 550px;
 }
 
@@ -49,8 +58,9 @@ main {
     width: calc(100% / 10);
     height: calc(100% / 10);
     background-color: #EEEEEE;
-    border: 1px solid #000;
+    border: 1px solid #1B262C;
     cursor: pointer;
+    padding-left: 5px;
 }
 
 .generated {
@@ -61,4 +71,5 @@ main {
 
 .active {
     background-color: #3282B8;
+    color: #BBE1FA;
 }
