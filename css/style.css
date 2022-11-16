@@ -36,8 +36,6 @@ main {
 }
 
 #container {
-    border-radius: 20px;
-    border: 1px solid #BBE1FA;
     width: 550px;
     margin: 0 auto;
     display: flex;
@@ -52,4 +50,10 @@ main {
     height: calc(100% / 10);
     background-color: #EEEEEE;
     border: 1px solid #000;
+}
+
+.generated {
+    border-radius: 20px;
+    transition: 1s;
+    border: 1px solid #BBE1FA;
 }
