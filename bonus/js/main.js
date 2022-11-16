@@ -3,9 +3,7 @@
 // L'utente seleziona la difficoltà
 let difficulty = document.getElementById('difficulty-selector');
 
-let howHard = difficulty.value;
 
-console.log(howHard);
 
 
 // Aggancio il bottone al file js
@@ -18,10 +16,11 @@ const wrapper = document.getElementById('container');
 // Creo un addEventListener per far sì che al click di btn venga mostrata la griglia
 btn.addEventListener('click' , 
 
-    function(){
-
-        if(howHard == 1) {
-
+function(){
+    
+    let howHard = difficulty.value;
+    if(howHard == 1) {
+        
             // InnerHtml vuoto per resettare il container
             wrapper.innerHTML = '';
 
@@ -100,6 +99,11 @@ btn.addEventListener('click' ,
             
             }    
         } else if(howHard == 3) {
+
+            // InnerHtml vuoto per resettare il container
+            wrapper.innerHTML = '';
+
+            wrapper.classList.add('generated');
 
             // Creare la griglia 7x7
     
