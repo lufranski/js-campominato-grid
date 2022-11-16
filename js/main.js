@@ -36,7 +36,7 @@ function(){
     
             function() {
     
-                newBox.classList.toggle('active');
+                newBox.classList.add('active');
     
                 console.log('Il numero della cella cliccata è: ' + numeroIterazione);
     
