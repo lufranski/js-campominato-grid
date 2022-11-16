@@ -63,7 +63,27 @@ function(){
             wrapper.innerHTML = '';
 
             wrapper.classList.add('generated');
-        
+
+            wrapper.classList.toggle('container-red');
+            
+            // Cambiamenti di layout
+            const hardHeader = document.querySelector('header');
+
+            hardHeader.classList.toggle('header-red');
+
+            const hardA = document.querySelector('a');
+
+            hardA.classList.toggle('a-red');
+
+            const hardLabel = document.querySelector('label');
+
+            hardLabel.classList.toggle('label-red');
+
+            btn.classList.toggle('button-red');
+
+            const hardMain = document.querySelector('main');
+
+            hardMain.classList.toggle('main-red');
             // Creare la griglia 9x9
         
         
@@ -80,7 +100,7 @@ function(){
         
                     function() {
         
-                        newBox.classList.add('active');
+                        newBox.classList.toggle('active-red');
         
                         console.log('Il numero della cella cliccata è: ' + numeroIterazione);
         
@@ -105,6 +125,26 @@ function(){
 
             wrapper.classList.add('generated');
 
+            wrapper.classList.toggle('container-black');
+            
+            // Cambiamenti di layout
+            const hardHeader = document.querySelector('header');
+
+            hardHeader.classList.toggle('header-black');
+
+            const hardA = document.querySelector('a');
+
+            hardA.classList.toggle('a-black');
+
+            const hardLabel = document.querySelector('label');
+
+            hardLabel.classList.toggle('label-black');
+
+            btn.classList.toggle('button-black');
+
+            const hardMain = document.querySelector('main');
+
+            hardMain.classList.toggle('main-black');
             // Creare la griglia 7x7
     
     
@@ -121,7 +161,7 @@ function(){
     
                     function() {
     
-                        newBox.classList.add('active');
+                        newBox.classList.toggle('active-black');
     
                         console.log('Il numero della cella cliccata è: ' + numeroIterazione);
     
