@@ -50,10 +50,15 @@ main {
     height: calc(100% / 10);
     background-color: #EEEEEE;
     border: 1px solid #000;
+    cursor: pointer;
 }
 
 .generated {
     border-radius: 20px;
     transition: 1s;
     border: 1px solid #BBE1FA;
+}
+
+.active {
+    background-color: #3282B8;
 }
