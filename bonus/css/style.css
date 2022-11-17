@@ -21,12 +21,12 @@ header {
 }
 
 .header-red {
-    transition: 1s;
+    transition: 0.5s;
     background-color: #820000;
 }
 
 .header-black {
-    transition: 1s;
+    transition: 0.5s;
     background-color: #000;
 }
 
@@ -41,12 +41,12 @@ label {
 }
 
 .label-red {
-    transition: 1s;
+    transition: 0.5s;
     color: #E64848;
 }
 
 .label-black {
-    transition: 1s;
+    transition: 0.5s;
     color: #E2DCC8;
 }
 
@@ -60,12 +60,12 @@ main {
 }
 
 .main-red {
-    transition: 1s;
+    transition: 0.5s;
     background-color: #C21010;
 }
 
 .main-black {
-    transition: 1s;
+    transition: 0.5s;
     background-color: #2C3333;
 }
 
@@ -77,12 +77,12 @@ a {
 }
 
 .a-red {
-    transition: 1s;
+    transition: 0.5s;
     color: #E64848;
 }
 
 .a-black {
-    transition: 1s;
+    transition: 0.5s;
     color: #B2B2B2;
 }
 
@@ -99,12 +99,12 @@ a:hover {
 }
 
 .button-red {
-    transition: 1s;
+    transition: 0.5s;
     color: #820000;
 }
 
 .button-black {
-    transition: 1s;
+    transition: 0.5s;
     color: #2C3333;
 }
 
@@ -139,7 +139,7 @@ a:hover {
 
 .generated {
     border-radius: 20px;
-    transition: 1s;
+    transition: 0.5s;
     border: 1px solid #BBE1FA;
 }
 
@@ -152,18 +152,19 @@ a:hover {
 }
 
 .active {
+    transition: 0.5s;
     background-color: #3282B8;
     color: #BBE1FA;
 }
 
 .active-red {
-    transition: 1s;
+    transition: 0.5s;
     background-color: #C21010;
     color: #E64848;
 }
 
 .active-black {
-    transition: 1s;
+    transition: 0.5s;
     background-color: #100F0F;
     color: #E2DCC8;
 }
